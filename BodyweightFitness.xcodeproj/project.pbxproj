@@ -1,0 +1,1323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B020A6940D5C36E142CDC6 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02EF894232CD71B4F1352 /* JTAppleCollectionReusableView.swift */; };
+		46B021B6A56C2000CA08000B /* WorkoutLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02AEDB4B0B259C2EAE1E8 /* WorkoutLogViewController.swift */; };
+		46B025EA7291A0DA0B274075 /* JTAppleDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02DB9A207D649D56E092E /* JTAppleDayCell.swift */; };
+		46B0266269F9AF2987F8DD20 /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02F1180EE611DCE533929 /* JTAppleCalendarView.swift */; };
+		46B0271B985965324463B90C /* RoutineStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02B2F18B13D956F1E2AD6 /* RoutineStream.swift */; };
+		46B02780EEC08B16FB384A4F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B020C26FAF7645B926FA26 /* CardView.swift */; };
+		46B02827BB8DE1BAFE67526A /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B022B7A7B5E9A8B85DEBA0 /* PersistenceManager.swift */; };
+		46B0290B4EED9DF65564DD88 /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02BC870713DC61E50B197 /* JTAppleCalendarLayout.swift */; };
+		46B02A11EF8A9D966F52363C /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0214B21F48BB91551C084 /* JTCalendarProtocols.swift */; };
+		46B02B4715E0F3EF8FF40542 /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B023E34B0C1F6EE72EA4B5 /* UserInteractionFunctions.swift */; };
+		46B02BB2537A1F6A3B5768B8 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B023EDCEC03B772C0541C3 /* CellView.xib */; };
+		46B02EA99E5A097D40018FFF /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0245E7CE3B2A0776F290A /* GlobalFunctionsAndExtensions.swift */; };
+		46B02EEF7C74B371B7BE5BE3 /* JTAppleCalendarDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02E5E9D8DD1144AF71EC1 /* JTAppleCalendarDelegates.swift */; };
+		46B02F273A691452E7174C82 /* JTAppleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B023C58BF2F7C63BA5051F /* JTAppleViews.swift */; };
+		46B02FDDA16C9D54DBC1A61D /* RepositoryStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B02F2362EA8A9111571B02 /* RepositoryStream.swift */; };
+		730EB7AA1DA9A75E00541250 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738B96C41D761BB1009A8625 /* RxBlocking.framework */; };
+		730EB7AB1DA9A75E00541250 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738B96C51D761BB1009A8625 /* RxCocoa.framework */; };
+		730EB7AC1DA9A75E00541250 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738B96C61D761BB1009A8625 /* RxSwift.framework */; };
+		730EB7AD1DA9A75E00541250 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BFEC041CBC2C9A00B9DDAE /* Fabric.framework */; };
+		730EB7AE1DA9A75E00541250 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BFEC051CBC2C9A00B9DDAE /* Crashlytics.framework */; };
+		730EB7AF1DA9A75E00541250 /* PageMenuFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732BA01E1C5ADC1200C1CDB5 /* PageMenuFramework.framework */; };
+		730EB7B01DA9A75E00541250 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734B6FE71C4BE84600CFB6BD /* Realm.framework */; };
+		730EB7B11DA9A75E00541250 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734B6FE81C4BE84600CFB6BD /* RealmSwift.framework */; };
+		730EB7B21DA9A75E00541250 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7349F6A11C492729009DBE7B /* Runes.framework */; };
+		730EB7B31DA9A75E00541250 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2BCEC1C3C6D6600CE6C00 /* SwiftyJSON.framework */; };
+		7329B68C1D0D8476005F5F74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7329B68B1D0D8476005F5F74 /* HomeViewController.swift */; };
+		7329B68E1D0D84E4005F5F74 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7329B68D1D0D84E4005F5F74 /* HomeView.xib */; };
+		732BA0221C5ADC3100C1CDB5 /* PageMenuFramework.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 732BA0211C5ADC3100C1CDB5 /* PageMenuFramework.framework.dSYM */; };
+		732BA0241C5AE75900C1CDB5 /* ProgressPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA0231C5AE75900C1CDB5 /* ProgressPageViewController.xib */; };
+		732BA0261C5AE8EF00C1CDB5 /* ProgressCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA0251C5AE8EF00C1CDB5 /* ProgressCardCell.xib */; };
+		732BA0281C5AE8F900C1CDB5 /* ProgressSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA0271C5AE8F900C1CDB5 /* ProgressSectionCell.xib */; };
+		732BA02A1C5B76DD00C1CDB5 /* ProgressCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732BA0291C5B76DD00C1CDB5 /* ProgressCardCell.swift */; };
+		732BA02C1C5B76E500C1CDB5 /* ProgressSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732BA02B1C5B76E500C1CDB5 /* ProgressSectionCell.swift */; };
+		732BA02E1C5B7A8D00C1CDB5 /* ProgressGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA02D1C5B7A8D00C1CDB5 /* ProgressGeneralViewController.xib */; };
+		732BA03D1C5BC9D400C1CDB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA03C1C5BC9D400C1CDB5 /* LaunchScreen.xib */; };
+		732BA0431C5EB9C300C1CDB5 /* WorkoutLogCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732BA0421C5EB9C300C1CDB5 /* WorkoutLogCardCell.swift */; };
+		732BA0451C5EB9CE00C1CDB5 /* WorkoutLogCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA0441C5EB9CE00C1CDB5 /* WorkoutLogCardCell.xib */; };
+		732BA0471C5EBB9900C1CDB5 /* WorkoutLogSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732BA0461C5EBB9900C1CDB5 /* WorkoutLogSectionCell.xib */; };
+		732BA0491C5EBBA400C1CDB5 /* WorkoutLogSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732BA0481C5EBBA400C1CDB5 /* WorkoutLogSectionCell.swift */; };
+		732CDDEF1D84485D004C6607 /* bodyweight_fitness_foot_supported_l_sit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732CDDEA1D84485D004C6607 /* bodyweight_fitness_foot_supported_l_sit.mp4 */; };
+		732CDDF01D84485D004C6607 /* bodyweight_fitness_l_sit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732CDDEB1D84485D004C6607 /* bodyweight_fitness_l_sit.mp4 */; };
+		732CDDF11D84485D004C6607 /* bodyweight_fitness_one_leg_foot_supported_l_sit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732CDDEC1D84485D004C6607 /* bodyweight_fitness_one_leg_foot_supported_l_sit.mp4 */; };
+		732CDDF21D84485D004C6607 /* bodyweight_fitness_tuck_l_sit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732CDDED1D84485D004C6607 /* bodyweight_fitness_tuck_l_sit.mp4 */; };
+		732CDDF31D84485D004C6607 /* bodyweight_fitness_wrist_mobility.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732CDDEE1D84485D004C6607 /* bodyweight_fitness_wrist_mobility.mp4 */; };
+		733876DE1C4AC829006AABA7 /* Runes.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 733876DC1C4AC829006AABA7 /* Runes.framework.dSYM */; };
+		733876DF1C4AC829006AABA7 /* SwiftyJSON.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 733876DD1C4AC829006AABA7 /* SwiftyJSON.framework.dSYM */; };
+		734B6F3F1C4AE7E900CFB6BD /* LogWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B6F3E1C4AE7E900CFB6BD /* LogWorkoutController.swift */; };
+		734B6FF91C4BE8CB00CFB6BD /* Realm.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 734B6FF71C4BE8CB00CFB6BD /* Realm.framework.dSYM */; };
+		734B6FFA1C4BE8CB00CFB6BD /* RealmSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 734B6FF81C4BE8CB00CFB6BD /* RealmSwift.framework.dSYM */; };
+		734B6FFF1C4BF46400CFB6BD /* RepositorySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B6FFE1C4BF46400CFB6BD /* RepositorySet.swift */; };
+		734B70051C4BF7C700CFB6BD /* RepositoryRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B70041C4BF7C700CFB6BD /* RepositoryRoutine.swift */; };
+		734B70081C4BF7DD00CFB6BD /* RepositoryCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B70071C4BF7DD00CFB6BD /* RepositoryCategory.swift */; };
+		734B700B1C4BF7E900CFB6BD /* RepositorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B700A1C4BF7E900CFB6BD /* RepositorySection.swift */; };
+		735BEA0A1CBD1F38003616C5 /* SideViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735BEA091CBD1F38003616C5 /* SideViewHeaderCell.xib */; };
+		735BEA0C1CBD1F5E003616C5 /* SideViewMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735BEA0B1CBD1F5E003616C5 /* SideViewMenuCell.xib */; };
+		7366D8D11C4EE9CC00819790 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366D8D01C4EE9CC00819790 /* ProgressViewController.swift */; };
+		7366D8DD1C4EEFD500819790 /* ProgressPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366D8DC1C4EEFD500819790 /* ProgressPageViewController.swift */; };
+		7366D8E11C51810600819790 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366D8E01C51810600819790 /* Extensions.swift */; };
+		7366D8EA1C52416C00819790 /* SupportDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366D8E91C52416C00819790 /* SupportDeveloperViewController.swift */; };
+		7366D8ED1C52943D00819790 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7366D8EC1C52943D00819790 /* StoreKit.framework */; };
+		737F3C781CBD52AB00251EFE /* WorkoutLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 737F3C771CBD52AB00251EFE /* WorkoutLogView.xib */; };
+		738B96771D760F66009A8625 /* bodyweight_fitness_advanced_tuck_front_lever_row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96341D760F66009A8625 /* bodyweight_fitness_advanced_tuck_front_lever_row.mp4 */; };
+		738B96781D760F66009A8625 /* bodyweight_fitness_assisted_squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96351D760F66009A8625 /* bodyweight_fitness_assisted_squat.mp4 */; };
+		738B96791D760F66009A8625 /* bodyweight_fitness_band_dislocates.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96361D760F66009A8625 /* bodyweight_fitness_band_dislocates.mp4 */; };
+		738B967A1D760F66009A8625 /* bodyweight_fitness_burpees.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96371D760F66009A8625 /* bodyweight_fitness_burpees.mp4 */; };
+		738B967B1D760F66009A8625 /* bodyweight_fitness_deep_step_up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96381D760F66009A8625 /* bodyweight_fitness_deep_step_up.mp4 */; };
+		738B967C1D760F66009A8625 /* bodyweight_fitness_diamond_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96391D760F66009A8625 /* bodyweight_fitness_diamond_pushup.mp4 */; };
+		738B967D1D760F66009A8625 /* bodyweight_fitness_freestanding_handstand.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B963A1D760F66009A8625 /* bodyweight_fitness_freestanding_handstand.mp4 */; };
+		738B967E1D760F66009A8625 /* bodyweight_fitness_front_leg_swings.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B963B1D760F66009A8625 /* bodyweight_fitness_front_leg_swings.mp4 */; };
+		738B967F1D760F66009A8625 /* bodyweight_fitness_horizontal_row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B963C1D760F66009A8625 /* bodyweight_fitness_horizontal_row.mp4 */; };
+		738B96801D760F66009A8625 /* bodyweight_fitness_incline_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B963D1D760F66009A8625 /* bodyweight_fitness_incline_pushup.mp4 */; };
+		738B96811D760F66009A8625 /* bodyweight_fitness_incline_row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B963E1D760F66009A8625 /* bodyweight_fitness_incline_row.mp4 */; };
+		738B96821D760F66009A8625 /* bodyweight_fitness_l_sit_pullup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B963F1D760F66009A8625 /* bodyweight_fitness_l_sit_pullup.mp4 */; };
+		738B96831D760F66009A8625 /* bodyweight_fitness_negative_pullup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96401D760F66009A8625 /* bodyweight_fitness_negative_pullup.mp4 */; };
+		738B96841D760F66009A8625 /* bodyweight_fitness_parallel_bar_dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96411D760F66009A8625 /* bodyweight_fitness_parallel_bar_dips.mp4 */; };
+		738B96851D760F66009A8625 /* bodyweight_fitness_parallel_bar_support.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96421D760F66009A8625 /* bodyweight_fitness_parallel_bar_support.mp4 */; };
+		738B96861D760F66009A8625 /* bodyweight_fitness_pseudo_planche_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96431D760F66009A8625 /* bodyweight_fitness_pseudo_planche_pushup.mp4 */; };
+		738B96871D760F66009A8625 /* bodyweight_fitness_pullover.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96441D760F66009A8625 /* bodyweight_fitness_pullover.mp4 */; };
+		738B96881D760F66009A8625 /* bodyweight_fitness_pullup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96451D760F66009A8625 /* bodyweight_fitness_pullup.mp4 */; };
+		738B96891D760F66009A8625 /* bodyweight_fitness_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96461D760F66009A8625 /* bodyweight_fitness_pushup.mp4 */; };
+		738B968A1D760F66009A8625 /* bodyweight_fitness_ring_dips_l_sit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96471D760F66009A8625 /* bodyweight_fitness_ring_dips_l_sit.mp4 */; };
+		738B968B1D760F66009A8625 /* bodyweight_fitness_ring_dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96481D760F66009A8625 /* bodyweight_fitness_ring_dips.mp4 */; };
+		738B968C1D760F66009A8625 /* bodyweight_fitness_ring_support.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96491D760F66009A8625 /* bodyweight_fitness_ring_support.mp4 */; };
+		738B968D1D760F66009A8625 /* bodyweight_fitness_rings_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B964A1D760F66009A8625 /* bodyweight_fitness_rings_pushup.mp4 */; };
+		738B968E1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pppu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B964B1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pppu.mp4 */; };
+		738B968F1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B964C1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pushup.mp4 */; };
+		738B96901D760F66009A8625 /* bodyweight_fitness_rings_turned_out_support_hold.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B964D1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_support_hold.mp4 */; };
+		738B96911D760F66009A8625 /* bodyweight_fitness_rings_wide_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B964E1D760F66009A8625 /* bodyweight_fitness_rings_wide_pushup.mp4 */; };
+		738B96921D760F66009A8625 /* bodyweight_fitness_side_leg_swings.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B964F1D760F66009A8625 /* bodyweight_fitness_side_leg_swings.mp4 */; };
+		738B96931D760F66009A8625 /* bodyweight_fitness_squat_jumps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96501D760F66009A8625 /* bodyweight_fitness_squat_jumps.mp4 */; };
+		738B96941D760F66009A8625 /* bodyweight_fitness_squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96511D760F66009A8625 /* bodyweight_fitness_squat.mp4 */; };
+		738B96951D760F66009A8625 /* bodyweight_fitness_stomach_to_wall_handstand.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96521D760F66009A8625 /* bodyweight_fitness_stomach_to_wall_handstand.mp4 */; };
+		738B96961D760F66009A8625 /* bodyweight_fitness_straight_arm_chest_flies.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96531D760F66009A8625 /* bodyweight_fitness_straight_arm_chest_flies.mp4 */; };
+		738B96971D760F66009A8625 /* bodyweight_fitness_straight_arm_overhead_pull_downs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96541D760F66009A8625 /* bodyweight_fitness_straight_arm_overhead_pull_downs.mp4 */; };
+		738B96981D760F66009A8625 /* bodyweight_fitness_tuck_front_lever_row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96551D760F66009A8625 /* bodyweight_fitness_tuck_front_lever_row.mp4 */; };
+		738B96991D760F66009A8625 /* bodyweight_fitness_tuck_front_lever.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96561D760F66009A8625 /* bodyweight_fitness_tuck_front_lever.mp4 */; };
+		738B969A1D760F66009A8625 /* bodyweight_fitness_tuck_ice_cream_maker.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96571D760F66009A8625 /* bodyweight_fitness_tuck_ice_cream_maker.mp4 */; };
+		738B969B1D760F66009A8625 /* bodyweight_fitness_vertical_row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96581D760F66009A8625 /* bodyweight_fitness_vertical_row.mp4 */; };
+		738B969C1D760F66009A8625 /* bodyweight_fitness_wall_plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96591D760F66009A8625 /* bodyweight_fitness_wall_plank.mp4 */; };
+		738B969D1D760F66009A8625 /* bodyweight_fitness_wall_pushup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B965A1D760F66009A8625 /* bodyweight_fitness_wall_pushup.mp4 */; };
+		738B969E1D760F66009A8625 /* bodyweight_fitness_wide_row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B965B1D760F66009A8625 /* bodyweight_fitness_wide_row.mp4 */; };
+		738B96A21D760F66009A8625 /* molding_mobility_ankle_circles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B965F1D760F66009A8625 /* molding_mobility_ankle_circles.mp4 */; };
+		738B96A31D760F66009A8625 /* molding_mobility_ankle_tilts.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96601D760F66009A8625 /* molding_mobility_ankle_tilts.mp4 */; };
+		738B96A41D760F66009A8625 /* molding_mobility_butt_kicks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96611D760F66009A8625 /* molding_mobility_butt_kicks.mp4 */; };
+		738B96A51D760F66009A8625 /* molding_mobility_circular_shrugs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96621D760F66009A8625 /* molding_mobility_circular_shrugs.mp4 */; };
+		738B96A61D760F66009A8625 /* molding_mobility_elbow_circles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96631D760F66009A8625 /* molding_mobility_elbow_circles.mp4 */; };
+		738B96A71D760F66009A8625 /* molding_mobility_finger_flexion_extension.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96641D760F66009A8625 /* molding_mobility_finger_flexion_extension.mp4 */; };
+		738B96A81D760F66009A8625 /* molding_mobility_forward_back_bends.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96651D760F66009A8625 /* molding_mobility_forward_back_bends.mp4 */; };
+		738B96A91D760F66009A8625 /* molding_mobility_hip_circles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96661D760F66009A8625 /* molding_mobility_hip_circles.mp4 */; };
+		738B96AA1D760F66009A8625 /* molding_mobility_knee_raises.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96671D760F66009A8625 /* molding_mobility_knee_raises.mp4 */; };
+		738B96AB1D760F66009A8625 /* molding_mobility_knee_rotations.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96681D760F66009A8625 /* molding_mobility_knee_rotations.mp4 */; };
+		738B96AC1D760F66009A8625 /* molding_mobility_large_arm_circles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96691D760F66009A8625 /* molding_mobility_large_arm_circles.mp4 */; };
+		738B96AD1D760F66009A8625 /* molding_mobility_pelvic_tilts.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B966A1D760F66009A8625 /* molding_mobility_pelvic_tilts.mp4 */; };
+		738B96AE1D760F66009A8625 /* molding_mobility_side_bends.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B966B1D760F66009A8625 /* molding_mobility_side_bends.mp4 */; };
+		738B96AF1D760F66009A8625 /* molding_mobility_toe_flexion_extension.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B966C1D760F66009A8625 /* molding_mobility_toe_flexion_extension.mp4 */; };
+		738B96B01D760F66009A8625 /* molding_mobility_torso_twists.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B966D1D760F66009A8625 /* molding_mobility_torso_twists.mp4 */; };
+		738B96B11D760F66009A8625 /* molding_mobility_wrist_circles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B966E1D760F66009A8625 /* molding_mobility_wrist_circles.mp4 */; };
+		738B96B21D760F66009A8625 /* bodyweight_fitness_arch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B966F1D760F66009A8625 /* bodyweight_fitness_arch.mp4 */; };
+		738B96B31D760F66009A8625 /* bodyweight_fitness_camel_bends.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96701D760F66009A8625 /* bodyweight_fitness_camel_bends.mp4 */; };
+		738B96B41D760F66009A8625 /* bodyweight_fitness_hollow_hold.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96711D760F66009A8625 /* bodyweight_fitness_hollow_hold.mp4 */; };
+		738B96B51D760F66009A8625 /* bodyweight_fitness_plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96721D760F66009A8625 /* bodyweight_fitness_plank.mp4 */; };
+		738B96B61D760F66009A8625 /* bodyweight_fitness_reverse_plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96731D760F66009A8625 /* bodyweight_fitness_reverse_plank.mp4 */; };
+		738B96B71D760F66009A8625 /* bodyweight_fitness_scapular_shrugs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96741D760F66009A8625 /* bodyweight_fitness_scapular_shrugs.mp4 */; };
+		738B96B81D760F66009A8625 /* bodyweight_fitness_shoulder_rolls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96751D760F66009A8625 /* bodyweight_fitness_shoulder_rolls.mp4 */; };
+		738B96B91D760F66009A8625 /* bodyweight_fitness_side_plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 738B96761D760F66009A8625 /* bodyweight_fitness_side_plank.mp4 */; };
+		738B96BD1D761192009A8625 /* molding_mobility_flexibility_routine.json in Resources */ = {isa = PBXBuildFile; fileRef = 738B96BC1D761192009A8625 /* molding_mobility_flexibility_routine.json */; };
+		738B96C11D761B78009A8625 /* RxBlocking.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 738B96BE1D761B77009A8625 /* RxBlocking.framework.dSYM */; };
+		738B96C21D761B78009A8625 /* RxCocoa.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 738B96BF1D761B77009A8625 /* RxCocoa.framework.dSYM */; };
+		738B96C31D761B78009A8625 /* RxSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 738B96C01D761B78009A8625 /* RxSwift.framework.dSYM */; };
+		738B96CD1D763319009A8625 /* HomeBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738B96CC1D763319009A8625 /* HomeBarView.xib */; };
+		738B96CF1D76337C009A8625 /* HomeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B96CE1D76337C009A8625 /* HomeBarView.swift */; };
+		73AA28EA1CABE69200DEED79 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA28E91CABE69200DEED79 /* DashboardViewController.swift */; };
+		73AA28ED1CABE8F800DEED79 /* DashboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AA28EC1CABE8F800DEED79 /* DashboardView.xib */; };
+		73AA28EF1CB7ABB500DEED79 /* DashboardSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AA28EE1CB7ABB500DEED79 /* DashboardSectionCell.xib */; };
+		73AA28F11CB7ABC300DEED79 /* DashboardSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA28F01CB7ABC300DEED79 /* DashboardSectionCell.swift */; };
+		73AA28F31CB7ACC100DEED79 /* DashboardCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA28F21CB7ACC100DEED79 /* DashboardCategoryCell.swift */; };
+		73AA28F51CB7ACCC00DEED79 /* DashboardCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AA28F41CB7ACCC00DEED79 /* DashboardCategoryCell.xib */; };
+		73AA28F71CB7ACD900DEED79 /* DashboardSingleItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AA28F61CB7ACD900DEED79 /* DashboardSingleItemCell.xib */; };
+		73AA28F91CB7ACE300DEED79 /* DashboardDoubleItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AA28F81CB7ACE300DEED79 /* DashboardDoubleItemCell.xib */; };
+		73AA28FB1CB7ACEB00DEED79 /* DashboardSingleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA28FA1CB7ACEB00DEED79 /* DashboardSingleItemCell.swift */; };
+		73AA28FD1CB7ACF500DEED79 /* DashboardDoubleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA28FC1CB7ACF500DEED79 /* DashboardDoubleItemCell.swift */; };
+		73BADE151CC3DC26001ACEDC /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BADE141CC3DC26001ACEDC /* RateMyApp.swift */; };
+		73BADE171CC3E2F9001ACEDC /* TimedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BADE161CC3E2F9001ACEDC /* TimedView.xib */; };
+		73BADE191CC3E347001ACEDC /* TimedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BADE181CC3E347001ACEDC /* TimedViewController.swift */; };
+		73BADE1B1CC3F956001ACEDC /* WeightedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BADE1A1CC3F956001ACEDC /* WeightedViewController.swift */; };
+		73BADE1D1CC3F98D001ACEDC /* WeightedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BADE1C1CC3F98D001ACEDC /* WeightedView.xib */; };
+		73BADE6E1CC78356001ACEDC /* BodyweightFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BADE6D1CC78356001ACEDC /* BodyweightFitnessTests.swift */; };
+		73BADE7D1CC79648001ACEDC /* TestRoutine.json in Resources */ = {isa = PBXBuildFile; fileRef = 73BADE7C1CC79648001ACEDC /* TestRoutine.json */; };
+		73BF3BA91CBE643200E0258D /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BA81CBE643200E0258D /* SettingsView.xib */; };
+		73BF3BAD1CBE6A5D00E0258D /* SettingsToggleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BAC1CBE6A5D00E0258D /* SettingsToggleCell.xib */; };
+		73BF3BAF1CBE6A7000E0258D /* SettingsActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BAE1CBE6A7000E0258D /* SettingsActionCell.xib */; };
+		73BF3BB11CBE6A8000E0258D /* SettingsTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BB01CBE6A8000E0258D /* SettingsTextCell.xib */; };
+		73BF3BB31CBE819B00E0258D /* SettingsActionSubtitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BB21CBE819B00E0258D /* SettingsActionSubtitleCell.xib */; };
+		73BF3BB51CBEB08B00E0258D /* LogWorkoutModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BB41CBEB08B00E0258D /* LogWorkoutModalView.xib */; };
+		73BF3BB91CBEFB0E00E0258D /* WorkoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BB81CBEFB0E00E0258D /* WorkoutView.xib */; };
+		73BF3BBB1CBEFB1E00E0258D /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BF3BBA1CBEFB1E00E0258D /* WorkoutViewController.swift */; };
+		73BF3BBF1CBF02D200E0258D /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BF3BBE1CBF02D200E0258D /* Window.xib */; };
+		73BF3BC11CBF05ED00E0258D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BF3BC01CBF05ED00E0258D /* SnackBar.swift */; };
+		73BFEBC41CBBFA3900B9DDAE /* SupportDeveloperView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BFEBC31CBBFA3900B9DDAE /* SupportDeveloperView.xib */; };
+		73C8E4AF1C5A1D30005E0248 /* ProgressGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8E4AE1C5A1D30005E0248 /* ProgressGeneralViewController.swift */; };
+		73D508D61DA6C76500D98F20 /* molding_mobility_3_plane_neck_movement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 73D508D51DA6C76500D98F20 /* molding_mobility_3_plane_neck_movement.mp4 */; };
+		73FE1F5B1C4BF82A0047C97A /* RepositoryExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE1F5A1C4BF82A0047C97A /* RepositoryExercise.swift */; };
+		E0C7E30D1B5BC12B00EB6389 /* AnimatableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E3041B5BC12B00EB6389 /* AnimatableImageView.swift */; };
+		E0C7E30F1B5BC12B00EB6389 /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E3051B5BC12B00EB6389 /* AnimatedFrame.swift */; };
+		E0C7E3111B5BC12B00EB6389 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E3061B5BC12B00EB6389 /* Animator.swift */; };
+		E0C7E3171B5BC12B00EB6389 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E3091B5BC12B00EB6389 /* ImageSourceHelpers.swift */; };
+		E0C7E31D1B5BC12B00EB6389 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E30C1B5BC12B00EB6389 /* UIImageExtension.swift */; };
+		E0F5872E1B5272C400540104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F5872C1B5272C400540104 /* AppDelegate.swift */; };
+		E0F587311B5272E200540104 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F587301B5272E200540104 /* Routine.swift */; };
+		E0F587351B5272F400540104 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F587331B5272F400540104 /* ActionView.swift */; };
+		E0F5873C1B52730000540104 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F587381B52730000540104 /* SettingsViewController.swift */; };
+		E0F5873D1B52730000540104 /* TimePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F587391B52730000540104 /* TimePickerController.swift */; };
+		E0F587471B52730C00540104 /* TimePickerModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F587431B52730C00540104 /* TimePickerModalView.xib */; };
+		E0F5874A1B52731C00540104 /* finished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F587481B52731C00540104 /* finished.mp3 */; };
+		E0F5874B1B52731C00540104 /* bodyweight_fitness_recommended_routine.json in Resources */ = {isa = PBXBuildFile; fileRef = E0F587491B52731C00540104 /* bodyweight_fitness_recommended_routine.json */; };
+		E0F587B41B52734900540104 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F587B31B52734900540104 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73BADE701CC78356001ACEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD2CA7B1B458FFD00841AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD2CA821B458FFD00841AB7;
+			remoteInfo = "Bodyweight Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73D2BCDB1C3C627200CE6C00 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				738B96C11D761B78009A8625 /* RxBlocking.framework.dSYM in CopyFiles */,
+				738B96C21D761B78009A8625 /* RxCocoa.framework.dSYM in CopyFiles */,
+				738B96C31D761B78009A8625 /* RxSwift.framework.dSYM in CopyFiles */,
+				732BA0221C5ADC3100C1CDB5 /* PageMenuFramework.framework.dSYM in CopyFiles */,
+				734B6FF91C4BE8CB00CFB6BD /* Realm.framework.dSYM in CopyFiles */,
+				734B6FFA1C4BE8CB00CFB6BD /* RealmSwift.framework.dSYM in CopyFiles */,
+				733876DE1C4AC829006AABA7 /* Runes.framework.dSYM in CopyFiles */,
+				733876DF1C4AC829006AABA7 /* SwiftyJSON.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7E3481B5BD8B500EB6389 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BD2CA831B458FFD00841AB7 /* Bodyweight Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bodyweight Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B020C26FAF7645B926FA26 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		46B0214B21F48BB91551C084 /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = BodyweightFitness/Vendor/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		46B022B7A7B5E9A8B85DEBA0 /* PersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		46B023C58BF2F7C63BA5051F /* JTAppleViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTAppleViews.swift; path = BodyweightFitness/Vendor/JTAppleViews.swift; sourceTree = "<group>"; };
+		46B023E34B0C1F6EE72EA4B5 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = BodyweightFitness/Vendor/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		46B023EDCEC03B772C0541C3 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		46B0245E7CE3B2A0776F290A /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = BodyweightFitness/Vendor/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		46B02AEDB4B0B259C2EAE1E8 /* WorkoutLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutLogViewController.swift; sourceTree = "<group>"; };
+		46B02B2F18B13D956F1E2AD6 /* RoutineStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineStream.swift; sourceTree = "<group>"; };
+		46B02BC870713DC61E50B197 /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = BodyweightFitness/Vendor/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
+		46B02DB9A207D649D56E092E /* JTAppleDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTAppleDayCell.swift; path = BodyweightFitness/Vendor/JTAppleDayCell.swift; sourceTree = "<group>"; };
+		46B02E5E9D8DD1144AF71EC1 /* JTAppleCalendarDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegates.swift; path = BodyweightFitness/Vendor/JTAppleCalendarDelegates.swift; sourceTree = "<group>"; };
+		46B02EF894232CD71B4F1352 /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = BodyweightFitness/Vendor/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
+		46B02F1180EE611DCE533929 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = BodyweightFitness/Vendor/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		46B02F2362EA8A9111571B02 /* RepositoryStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryStream.swift; sourceTree = "<group>"; };
+		7329B68B1D0D8476005F5F74 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7329B68D1D0D84E4005F5F74 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		732BA01E1C5ADC1200C1CDB5 /* PageMenuFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PageMenuFramework.framework; path = Carthage/Build/iOS/PageMenuFramework.framework; sourceTree = "<group>"; };
+		732BA0211C5ADC3100C1CDB5 /* PageMenuFramework.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = PageMenuFramework.framework.dSYM; path = Carthage/Build/iOS/PageMenuFramework.framework.dSYM; sourceTree = "<group>"; };
+		732BA0231C5AE75900C1CDB5 /* ProgressPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressPageViewController.xib; sourceTree = "<group>"; };
+		732BA0251C5AE8EF00C1CDB5 /* ProgressCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressCardCell.xib; sourceTree = "<group>"; };
+		732BA0271C5AE8F900C1CDB5 /* ProgressSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressSectionCell.xib; sourceTree = "<group>"; };
+		732BA0291C5B76DD00C1CDB5 /* ProgressCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCardCell.swift; sourceTree = "<group>"; };
+		732BA02B1C5B76E500C1CDB5 /* ProgressSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressSectionCell.swift; sourceTree = "<group>"; };
+		732BA02D1C5B7A8D00C1CDB5 /* ProgressGeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressGeneralViewController.xib; sourceTree = "<group>"; };
+		732BA03C1C5BC9D400C1CDB5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		732BA0421C5EB9C300C1CDB5 /* WorkoutLogCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutLogCardCell.swift; sourceTree = "<group>"; };
+		732BA0441C5EB9CE00C1CDB5 /* WorkoutLogCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutLogCardCell.xib; sourceTree = "<group>"; };
+		732BA0461C5EBB9900C1CDB5 /* WorkoutLogSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutLogSectionCell.xib; sourceTree = "<group>"; };
+		732BA0481C5EBBA400C1CDB5 /* WorkoutLogSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutLogSectionCell.swift; sourceTree = "<group>"; };
+		732CDDEA1D84485D004C6607 /* bodyweight_fitness_foot_supported_l_sit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_foot_supported_l_sit.mp4; sourceTree = "<group>"; };
+		732CDDEB1D84485D004C6607 /* bodyweight_fitness_l_sit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_l_sit.mp4; sourceTree = "<group>"; };
+		732CDDEC1D84485D004C6607 /* bodyweight_fitness_one_leg_foot_supported_l_sit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_one_leg_foot_supported_l_sit.mp4; sourceTree = "<group>"; };
+		732CDDED1D84485D004C6607 /* bodyweight_fitness_tuck_l_sit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_tuck_l_sit.mp4; sourceTree = "<group>"; };
+		732CDDEE1D84485D004C6607 /* bodyweight_fitness_wrist_mobility.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_wrist_mobility.mp4; sourceTree = "<group>"; };
+		733876DC1C4AC829006AABA7 /* Runes.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Runes.framework.dSYM; path = Carthage/Build/iOS/Runes.framework.dSYM; sourceTree = "<group>"; };
+		733876DD1C4AC829006AABA7 /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = Carthage/Build/iOS/SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
+		7349F6A11C492729009DBE7B /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+		734B6F3E1C4AE7E900CFB6BD /* LogWorkoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogWorkoutController.swift; sourceTree = "<group>"; };
+		734B6FE71C4BE84600CFB6BD /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		734B6FE81C4BE84600CFB6BD /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		734B6FF71C4BE8CB00CFB6BD /* Realm.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Realm.framework.dSYM; path = Carthage/Build/iOS/Realm.framework.dSYM; sourceTree = "<group>"; };
+		734B6FF81C4BE8CB00CFB6BD /* RealmSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RealmSwift.framework.dSYM; path = Carthage/Build/iOS/RealmSwift.framework.dSYM; sourceTree = "<group>"; };
+		734B6FFE1C4BF46400CFB6BD /* RepositorySet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositorySet.swift; sourceTree = "<group>"; };
+		734B70041C4BF7C700CFB6BD /* RepositoryRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryRoutine.swift; sourceTree = "<group>"; };
+		734B70071C4BF7DD00CFB6BD /* RepositoryCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryCategory.swift; sourceTree = "<group>"; };
+		734B700A1C4BF7E900CFB6BD /* RepositorySection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositorySection.swift; sourceTree = "<group>"; };
+		735BEA091CBD1F38003616C5 /* SideViewHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideViewHeaderCell.xib; sourceTree = "<group>"; };
+		735BEA0B1CBD1F5E003616C5 /* SideViewMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideViewMenuCell.xib; sourceTree = "<group>"; };
+		7366D8D01C4EE9CC00819790 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		7366D8DC1C4EEFD500819790 /* ProgressPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressPageViewController.swift; sourceTree = "<group>"; };
+		7366D8E01C51810600819790 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7366D8E91C52416C00819790 /* SupportDeveloperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportDeveloperViewController.swift; sourceTree = "<group>"; };
+		7366D8EC1C52943D00819790 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		737F3C771CBD52AB00251EFE /* WorkoutLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutLogView.xib; sourceTree = "<group>"; };
+		738B96341D760F66009A8625 /* bodyweight_fitness_advanced_tuck_front_lever_row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_advanced_tuck_front_lever_row.mp4; sourceTree = "<group>"; };
+		738B96351D760F66009A8625 /* bodyweight_fitness_assisted_squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_assisted_squat.mp4; sourceTree = "<group>"; };
+		738B96361D760F66009A8625 /* bodyweight_fitness_band_dislocates.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_band_dislocates.mp4; sourceTree = "<group>"; };
+		738B96371D760F66009A8625 /* bodyweight_fitness_burpees.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_burpees.mp4; sourceTree = "<group>"; };
+		738B96381D760F66009A8625 /* bodyweight_fitness_deep_step_up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_deep_step_up.mp4; sourceTree = "<group>"; };
+		738B96391D760F66009A8625 /* bodyweight_fitness_diamond_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_diamond_pushup.mp4; sourceTree = "<group>"; };
+		738B963A1D760F66009A8625 /* bodyweight_fitness_freestanding_handstand.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_freestanding_handstand.mp4; sourceTree = "<group>"; };
+		738B963B1D760F66009A8625 /* bodyweight_fitness_front_leg_swings.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_front_leg_swings.mp4; sourceTree = "<group>"; };
+		738B963C1D760F66009A8625 /* bodyweight_fitness_horizontal_row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_horizontal_row.mp4; sourceTree = "<group>"; };
+		738B963D1D760F66009A8625 /* bodyweight_fitness_incline_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_incline_pushup.mp4; sourceTree = "<group>"; };
+		738B963E1D760F66009A8625 /* bodyweight_fitness_incline_row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_incline_row.mp4; sourceTree = "<group>"; };
+		738B963F1D760F66009A8625 /* bodyweight_fitness_l_sit_pullup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_l_sit_pullup.mp4; sourceTree = "<group>"; };
+		738B96401D760F66009A8625 /* bodyweight_fitness_negative_pullup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_negative_pullup.mp4; sourceTree = "<group>"; };
+		738B96411D760F66009A8625 /* bodyweight_fitness_parallel_bar_dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_parallel_bar_dips.mp4; sourceTree = "<group>"; };
+		738B96421D760F66009A8625 /* bodyweight_fitness_parallel_bar_support.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_parallel_bar_support.mp4; sourceTree = "<group>"; };
+		738B96431D760F66009A8625 /* bodyweight_fitness_pseudo_planche_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_pseudo_planche_pushup.mp4; sourceTree = "<group>"; };
+		738B96441D760F66009A8625 /* bodyweight_fitness_pullover.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_pullover.mp4; sourceTree = "<group>"; };
+		738B96451D760F66009A8625 /* bodyweight_fitness_pullup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_pullup.mp4; sourceTree = "<group>"; };
+		738B96461D760F66009A8625 /* bodyweight_fitness_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_pushup.mp4; sourceTree = "<group>"; };
+		738B96471D760F66009A8625 /* bodyweight_fitness_ring_dips_l_sit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_ring_dips_l_sit.mp4; sourceTree = "<group>"; };
+		738B96481D760F66009A8625 /* bodyweight_fitness_ring_dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_ring_dips.mp4; sourceTree = "<group>"; };
+		738B96491D760F66009A8625 /* bodyweight_fitness_ring_support.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_ring_support.mp4; sourceTree = "<group>"; };
+		738B964A1D760F66009A8625 /* bodyweight_fitness_rings_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_rings_pushup.mp4; sourceTree = "<group>"; };
+		738B964B1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pppu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_rings_turned_out_pppu.mp4; sourceTree = "<group>"; };
+		738B964C1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_rings_turned_out_pushup.mp4; sourceTree = "<group>"; };
+		738B964D1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_support_hold.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_rings_turned_out_support_hold.mp4; sourceTree = "<group>"; };
+		738B964E1D760F66009A8625 /* bodyweight_fitness_rings_wide_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_rings_wide_pushup.mp4; sourceTree = "<group>"; };
+		738B964F1D760F66009A8625 /* bodyweight_fitness_side_leg_swings.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_side_leg_swings.mp4; sourceTree = "<group>"; };
+		738B96501D760F66009A8625 /* bodyweight_fitness_squat_jumps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_squat_jumps.mp4; sourceTree = "<group>"; };
+		738B96511D760F66009A8625 /* bodyweight_fitness_squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_squat.mp4; sourceTree = "<group>"; };
+		738B96521D760F66009A8625 /* bodyweight_fitness_stomach_to_wall_handstand.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_stomach_to_wall_handstand.mp4; sourceTree = "<group>"; };
+		738B96531D760F66009A8625 /* bodyweight_fitness_straight_arm_chest_flies.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_straight_arm_chest_flies.mp4; sourceTree = "<group>"; };
+		738B96541D760F66009A8625 /* bodyweight_fitness_straight_arm_overhead_pull_downs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_straight_arm_overhead_pull_downs.mp4; sourceTree = "<group>"; };
+		738B96551D760F66009A8625 /* bodyweight_fitness_tuck_front_lever_row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_tuck_front_lever_row.mp4; sourceTree = "<group>"; };
+		738B96561D760F66009A8625 /* bodyweight_fitness_tuck_front_lever.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_tuck_front_lever.mp4; sourceTree = "<group>"; };
+		738B96571D760F66009A8625 /* bodyweight_fitness_tuck_ice_cream_maker.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_tuck_ice_cream_maker.mp4; sourceTree = "<group>"; };
+		738B96581D760F66009A8625 /* bodyweight_fitness_vertical_row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_vertical_row.mp4; sourceTree = "<group>"; };
+		738B96591D760F66009A8625 /* bodyweight_fitness_wall_plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_wall_plank.mp4; sourceTree = "<group>"; };
+		738B965A1D760F66009A8625 /* bodyweight_fitness_wall_pushup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_wall_pushup.mp4; sourceTree = "<group>"; };
+		738B965B1D760F66009A8625 /* bodyweight_fitness_wide_row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_wide_row.mp4; sourceTree = "<group>"; };
+		738B965F1D760F66009A8625 /* molding_mobility_ankle_circles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_ankle_circles.mp4; sourceTree = "<group>"; };
+		738B96601D760F66009A8625 /* molding_mobility_ankle_tilts.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_ankle_tilts.mp4; sourceTree = "<group>"; };
+		738B96611D760F66009A8625 /* molding_mobility_butt_kicks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_butt_kicks.mp4; sourceTree = "<group>"; };
+		738B96621D760F66009A8625 /* molding_mobility_circular_shrugs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_circular_shrugs.mp4; sourceTree = "<group>"; };
+		738B96631D760F66009A8625 /* molding_mobility_elbow_circles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_elbow_circles.mp4; sourceTree = "<group>"; };
+		738B96641D760F66009A8625 /* molding_mobility_finger_flexion_extension.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_finger_flexion_extension.mp4; sourceTree = "<group>"; };
+		738B96651D760F66009A8625 /* molding_mobility_forward_back_bends.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_forward_back_bends.mp4; sourceTree = "<group>"; };
+		738B96661D760F66009A8625 /* molding_mobility_hip_circles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_hip_circles.mp4; sourceTree = "<group>"; };
+		738B96671D760F66009A8625 /* molding_mobility_knee_raises.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_knee_raises.mp4; sourceTree = "<group>"; };
+		738B96681D760F66009A8625 /* molding_mobility_knee_rotations.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_knee_rotations.mp4; sourceTree = "<group>"; };
+		738B96691D760F66009A8625 /* molding_mobility_large_arm_circles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_large_arm_circles.mp4; sourceTree = "<group>"; };
+		738B966A1D760F66009A8625 /* molding_mobility_pelvic_tilts.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_pelvic_tilts.mp4; sourceTree = "<group>"; };
+		738B966B1D760F66009A8625 /* molding_mobility_side_bends.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_side_bends.mp4; sourceTree = "<group>"; };
+		738B966C1D760F66009A8625 /* molding_mobility_toe_flexion_extension.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_toe_flexion_extension.mp4; sourceTree = "<group>"; };
+		738B966D1D760F66009A8625 /* molding_mobility_torso_twists.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_torso_twists.mp4; sourceTree = "<group>"; };
+		738B966E1D760F66009A8625 /* molding_mobility_wrist_circles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_wrist_circles.mp4; sourceTree = "<group>"; };
+		738B966F1D760F66009A8625 /* bodyweight_fitness_arch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_arch.mp4; sourceTree = "<group>"; };
+		738B96701D760F66009A8625 /* bodyweight_fitness_camel_bends.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_camel_bends.mp4; sourceTree = "<group>"; };
+		738B96711D760F66009A8625 /* bodyweight_fitness_hollow_hold.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_hollow_hold.mp4; sourceTree = "<group>"; };
+		738B96721D760F66009A8625 /* bodyweight_fitness_plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_plank.mp4; sourceTree = "<group>"; };
+		738B96731D760F66009A8625 /* bodyweight_fitness_reverse_plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_reverse_plank.mp4; sourceTree = "<group>"; };
+		738B96741D760F66009A8625 /* bodyweight_fitness_scapular_shrugs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_scapular_shrugs.mp4; sourceTree = "<group>"; };
+		738B96751D760F66009A8625 /* bodyweight_fitness_shoulder_rolls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_shoulder_rolls.mp4; sourceTree = "<group>"; };
+		738B96761D760F66009A8625 /* bodyweight_fitness_side_plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bodyweight_fitness_side_plank.mp4; sourceTree = "<group>"; };
+		738B96BC1D761192009A8625 /* molding_mobility_flexibility_routine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = molding_mobility_flexibility_routine.json; sourceTree = "<group>"; };
+		738B96BE1D761B77009A8625 /* RxBlocking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxBlocking.framework.dSYM; path = Carthage/Build/iOS/RxBlocking.framework.dSYM; sourceTree = "<group>"; };
+		738B96BF1D761B77009A8625 /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxCocoa.framework.dSYM; path = Carthage/Build/iOS/RxCocoa.framework.dSYM; sourceTree = "<group>"; };
+		738B96C01D761B78009A8625 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
+		738B96C41D761BB1009A8625 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		738B96C51D761BB1009A8625 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		738B96C61D761BB1009A8625 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		738B96CC1D763319009A8625 /* HomeBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBarView.xib; sourceTree = "<group>"; };
+		738B96CE1D76337C009A8625 /* HomeBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBarView.swift; sourceTree = "<group>"; };
+		73AA28E91CABE69200DEED79 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		73AA28EC1CABE8F800DEED79 /* DashboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardView.xib; sourceTree = "<group>"; };
+		73AA28EE1CB7ABB500DEED79 /* DashboardSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardSectionCell.xib; sourceTree = "<group>"; };
+		73AA28F01CB7ABC300DEED79 /* DashboardSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardSectionCell.swift; sourceTree = "<group>"; };
+		73AA28F21CB7ACC100DEED79 /* DashboardCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCategoryCell.swift; sourceTree = "<group>"; };
+		73AA28F41CB7ACCC00DEED79 /* DashboardCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardCategoryCell.xib; sourceTree = "<group>"; };
+		73AA28F61CB7ACD900DEED79 /* DashboardSingleItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardSingleItemCell.xib; sourceTree = "<group>"; };
+		73AA28F81CB7ACE300DEED79 /* DashboardDoubleItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardDoubleItemCell.xib; sourceTree = "<group>"; };
+		73AA28FA1CB7ACEB00DEED79 /* DashboardSingleItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardSingleItemCell.swift; sourceTree = "<group>"; };
+		73AA28FC1CB7ACF500DEED79 /* DashboardDoubleItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardDoubleItemCell.swift; sourceTree = "<group>"; };
+		73BADE141CC3DC26001ACEDC /* RateMyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RateMyApp.swift; path = BodyweightFitness/Vendor/RateMyApp.swift; sourceTree = "<group>"; };
+		73BADE161CC3E2F9001ACEDC /* TimedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimedView.xib; sourceTree = "<group>"; };
+		73BADE181CC3E347001ACEDC /* TimedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedViewController.swift; sourceTree = "<group>"; };
+		73BADE1A1CC3F956001ACEDC /* WeightedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedViewController.swift; sourceTree = "<group>"; };
+		73BADE1C1CC3F98D001ACEDC /* WeightedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeightedView.xib; sourceTree = "<group>"; };
+		73BADE6B1CC78356001ACEDC /* BodyweightFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyweightFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BADE6D1CC78356001ACEDC /* BodyweightFitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyweightFitnessTests.swift; sourceTree = "<group>"; };
+		73BADE6F1CC78356001ACEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BADE7C1CC79648001ACEDC /* TestRoutine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestRoutine.json; sourceTree = "<group>"; };
+		73BF3BA81CBE643200E0258D /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		73BF3BAC1CBE6A5D00E0258D /* SettingsToggleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsToggleCell.xib; sourceTree = "<group>"; };
+		73BF3BAE1CBE6A7000E0258D /* SettingsActionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsActionCell.xib; sourceTree = "<group>"; };
+		73BF3BB01CBE6A8000E0258D /* SettingsTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTextCell.xib; sourceTree = "<group>"; };
+		73BF3BB21CBE819B00E0258D /* SettingsActionSubtitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsActionSubtitleCell.xib; sourceTree = "<group>"; };
+		73BF3BB41CBEB08B00E0258D /* LogWorkoutModalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogWorkoutModalView.xib; sourceTree = "<group>"; };
+		73BF3BB81CBEFB0E00E0258D /* WorkoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutView.xib; sourceTree = "<group>"; };
+		73BF3BBA1CBEFB1E00E0258D /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		73BF3BBE1CBF02D200E0258D /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		73BF3BC01CBF05ED00E0258D /* SnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+		73BFEBC31CBBFA3900B9DDAE /* SupportDeveloperView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportDeveloperView.xib; sourceTree = "<group>"; };
+		73BFEC041CBC2C9A00B9DDAE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		73BFEC051CBC2C9A00B9DDAE /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		73C8E4AE1C5A1D30005E0248 /* ProgressGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressGeneralViewController.swift; sourceTree = "<group>"; };
+		73D2BCEC1C3C6D6600CE6C00 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		73D508D51DA6C76500D98F20 /* molding_mobility_3_plane_neck_movement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molding_mobility_3_plane_neck_movement.mp4; sourceTree = "<group>"; };
+		73FE1F5A1C4BF82A0047C97A /* RepositoryExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryExercise.swift; sourceTree = "<group>"; };
+		E0C7E3041B5BC12B00EB6389 /* AnimatableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatableImageView.swift; path = BodyweightFitness/Frameworks/AnimatableImageView.swift; sourceTree = "<group>"; };
+		E0C7E3051B5BC12B00EB6389 /* AnimatedFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = BodyweightFitness/Frameworks/AnimatedFrame.swift; sourceTree = "<group>"; };
+		E0C7E3061B5BC12B00EB6389 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = BodyweightFitness/Frameworks/Animator.swift; sourceTree = "<group>"; };
+		E0C7E3091B5BC12B00EB6389 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSourceHelpers.swift; path = BodyweightFitness/Frameworks/ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		E0C7E30C1B5BC12B00EB6389 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = BodyweightFitness/Frameworks/UIImageExtension.swift; sourceTree = "<group>"; };
+		E0F5872C1B5272C400540104 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0F587301B5272E200540104 /* Routine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		E0F587331B5272F400540104 /* ActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		E0F587381B52730000540104 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E0F587391B52730000540104 /* TimePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePickerController.swift; sourceTree = "<group>"; };
+		E0F587441B52730C00540104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TimePickerModalView.xib; sourceTree = "<group>"; };
+		E0F587481B52731C00540104 /* finished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = finished.mp3; sourceTree = "<group>"; };
+		E0F587491B52731C00540104 /* bodyweight_fitness_recommended_routine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bodyweight_fitness_recommended_routine.json; sourceTree = "<group>"; };
+		E0F587B11B52734000540104 /* Bodyweight Fitness.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Bodyweight Fitness.plist"; sourceTree = "<group>"; };
+		E0F587B31B52734900540104 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD2CA801B458FFD00841AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7366D8ED1C52943D00819790 /* StoreKit.framework in Frameworks */,
+				730EB7AA1DA9A75E00541250 /* RxBlocking.framework in Frameworks */,
+				730EB7AB1DA9A75E00541250 /* RxCocoa.framework in Frameworks */,
+				730EB7AC1DA9A75E00541250 /* RxSwift.framework in Frameworks */,
+				730EB7AD1DA9A75E00541250 /* Fabric.framework in Frameworks */,
+				730EB7AE1DA9A75E00541250 /* Crashlytics.framework in Frameworks */,
+				730EB7AF1DA9A75E00541250 /* PageMenuFramework.framework in Frameworks */,
+				730EB7B01DA9A75E00541250 /* Realm.framework in Frameworks */,
+				730EB7B11DA9A75E00541250 /* RealmSwift.framework in Frameworks */,
+				730EB7B21DA9A75E00541250 /* Runes.framework in Frameworks */,
+				730EB7B31DA9A75E00541250 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BADE681CC78356001ACEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD2CA7A1B458FFD00841AB7 = {
+			isa = PBXGroup;
+			children = (
+				2BD2CA851B458FFD00841AB7 /* BodyweightFitness */,
+				73BADE6C1CC78356001ACEDC /* BodyweightFitnessTests */,
+				E00242FB1B4F1CFD0003A230 /* Frameworks */,
+				2BD2CA841B458FFD00841AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD2CA841B458FFD00841AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD2CA831B458FFD00841AB7 /* Bodyweight Fitness.app */,
+				73BADE6B1CC78356001ACEDC /* BodyweightFitnessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD2CA851B458FFD00841AB7 /* BodyweightFitness */ = {
+			isa = PBXGroup;
+			children = (
+				E0F587B11B52734000540104 /* Bodyweight Fitness.plist */,
+				E0F5872C1B5272C400540104 /* AppDelegate.swift */,
+				7366D8E01C51810600819790 /* Extensions.swift */,
+				73BA31BC1CB83A9B001784F7 /* Controller */,
+				E078934D1B472CCD001195AC /* Model */,
+				E08139041B5270EE00390A73 /* Resources */,
+				73AA28EB1CABE8E000DEED79 /* UI */,
+				46B02B5CCCC5682EEFC8E161 /* Service */,
+				E078934C1B472CAF001195AC /* View */,
+				E0F587B31B52734900540104 /* Images.xcassets */,
+			);
+			path = BodyweightFitness;
+			sourceTree = "<group>";
+		};
+		46B02B5CCCC5682EEFC8E161 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				46B022B7A7B5E9A8B85DEBA0 /* PersistenceManager.swift */,
+				46B02F2362EA8A9111571B02 /* RepositoryStream.swift */,
+				46B02B2F18B13D956F1E2AD6 /* RoutineStream.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		735BEA081CBD1F29003616C5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				73AA28F41CB7ACCC00DEED79 /* DashboardCategoryCell.xib */,
+				73AA28F81CB7ACE300DEED79 /* DashboardDoubleItemCell.xib */,
+				73AA28EE1CB7ABB500DEED79 /* DashboardSectionCell.xib */,
+				73AA28F61CB7ACD900DEED79 /* DashboardSingleItemCell.xib */,
+				732BA0251C5AE8EF00C1CDB5 /* ProgressCardCell.xib */,
+				732BA0271C5AE8F900C1CDB5 /* ProgressSectionCell.xib */,
+				73BF3BAE1CBE6A7000E0258D /* SettingsActionCell.xib */,
+				73BF3BB21CBE819B00E0258D /* SettingsActionSubtitleCell.xib */,
+				73BF3BB01CBE6A8000E0258D /* SettingsTextCell.xib */,
+				73BF3BAC1CBE6A5D00E0258D /* SettingsToggleCell.xib */,
+				735BEA091CBD1F38003616C5 /* SideViewHeaderCell.xib */,
+				735BEA0B1CBD1F5E003616C5 /* SideViewMenuCell.xib */,
+				732BA0441C5EB9CE00C1CDB5 /* WorkoutLogCardCell.xib */,
+				732BA0461C5EBB9900C1CDB5 /* WorkoutLogSectionCell.xib */,
+				46B023EDCEC03B772C0541C3 /* CellView.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		737F3C7E1CBD593200251EFE /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				73BF3BB41CBEB08B00E0258D /* LogWorkoutModalView.xib */,
+				E0F587431B52730C00540104 /* TimePickerModalView.xib */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		738B96BA1D760F92009A8625 /* Bodyweight Fitness - Recommended Routine */ = {
+			isa = PBXGroup;
+			children = (
+				732CDDEA1D84485D004C6607 /* bodyweight_fitness_foot_supported_l_sit.mp4 */,
+				732CDDEB1D84485D004C6607 /* bodyweight_fitness_l_sit.mp4 */,
+				732CDDEC1D84485D004C6607 /* bodyweight_fitness_one_leg_foot_supported_l_sit.mp4 */,
+				732CDDED1D84485D004C6607 /* bodyweight_fitness_tuck_l_sit.mp4 */,
+				732CDDEE1D84485D004C6607 /* bodyweight_fitness_wrist_mobility.mp4 */,
+				738B966F1D760F66009A8625 /* bodyweight_fitness_arch.mp4 */,
+				738B96701D760F66009A8625 /* bodyweight_fitness_camel_bends.mp4 */,
+				738B96711D760F66009A8625 /* bodyweight_fitness_hollow_hold.mp4 */,
+				738B96721D760F66009A8625 /* bodyweight_fitness_plank.mp4 */,
+				738B96731D760F66009A8625 /* bodyweight_fitness_reverse_plank.mp4 */,
+				738B96741D760F66009A8625 /* bodyweight_fitness_scapular_shrugs.mp4 */,
+				738B96751D760F66009A8625 /* bodyweight_fitness_shoulder_rolls.mp4 */,
+				738B96761D760F66009A8625 /* bodyweight_fitness_side_plank.mp4 */,
+				738B96501D760F66009A8625 /* bodyweight_fitness_squat_jumps.mp4 */,
+				738B96521D760F66009A8625 /* bodyweight_fitness_stomach_to_wall_handstand.mp4 */,
+				738B96541D760F66009A8625 /* bodyweight_fitness_straight_arm_overhead_pull_downs.mp4 */,
+				738B96551D760F66009A8625 /* bodyweight_fitness_tuck_front_lever_row.mp4 */,
+				738B96561D760F66009A8625 /* bodyweight_fitness_tuck_front_lever.mp4 */,
+				738B96571D760F66009A8625 /* bodyweight_fitness_tuck_ice_cream_maker.mp4 */,
+				738B96581D760F66009A8625 /* bodyweight_fitness_vertical_row.mp4 */,
+				738B96591D760F66009A8625 /* bodyweight_fitness_wall_plank.mp4 */,
+				738B965A1D760F66009A8625 /* bodyweight_fitness_wall_pushup.mp4 */,
+				738B965B1D760F66009A8625 /* bodyweight_fitness_wide_row.mp4 */,
+				738B96341D760F66009A8625 /* bodyweight_fitness_advanced_tuck_front_lever_row.mp4 */,
+				738B96351D760F66009A8625 /* bodyweight_fitness_assisted_squat.mp4 */,
+				738B96361D760F66009A8625 /* bodyweight_fitness_band_dislocates.mp4 */,
+				738B96371D760F66009A8625 /* bodyweight_fitness_burpees.mp4 */,
+				738B96381D760F66009A8625 /* bodyweight_fitness_deep_step_up.mp4 */,
+				738B96391D760F66009A8625 /* bodyweight_fitness_diamond_pushup.mp4 */,
+				738B963A1D760F66009A8625 /* bodyweight_fitness_freestanding_handstand.mp4 */,
+				738B963B1D760F66009A8625 /* bodyweight_fitness_front_leg_swings.mp4 */,
+				738B963C1D760F66009A8625 /* bodyweight_fitness_horizontal_row.mp4 */,
+				738B963D1D760F66009A8625 /* bodyweight_fitness_incline_pushup.mp4 */,
+				738B963E1D760F66009A8625 /* bodyweight_fitness_incline_row.mp4 */,
+				738B963F1D760F66009A8625 /* bodyweight_fitness_l_sit_pullup.mp4 */,
+				738B96401D760F66009A8625 /* bodyweight_fitness_negative_pullup.mp4 */,
+				738B96411D760F66009A8625 /* bodyweight_fitness_parallel_bar_dips.mp4 */,
+				738B96421D760F66009A8625 /* bodyweight_fitness_parallel_bar_support.mp4 */,
+				738B96431D760F66009A8625 /* bodyweight_fitness_pseudo_planche_pushup.mp4 */,
+				738B96441D760F66009A8625 /* bodyweight_fitness_pullover.mp4 */,
+				738B96451D760F66009A8625 /* bodyweight_fitness_pullup.mp4 */,
+				738B96461D760F66009A8625 /* bodyweight_fitness_pushup.mp4 */,
+				738B96471D760F66009A8625 /* bodyweight_fitness_ring_dips_l_sit.mp4 */,
+				738B96481D760F66009A8625 /* bodyweight_fitness_ring_dips.mp4 */,
+				738B96491D760F66009A8625 /* bodyweight_fitness_ring_support.mp4 */,
+				738B964A1D760F66009A8625 /* bodyweight_fitness_rings_pushup.mp4 */,
+				738B964B1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pppu.mp4 */,
+				738B964C1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pushup.mp4 */,
+				738B964E1D760F66009A8625 /* bodyweight_fitness_rings_wide_pushup.mp4 */,
+				738B964D1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_support_hold.mp4 */,
+				738B964F1D760F66009A8625 /* bodyweight_fitness_side_leg_swings.mp4 */,
+				738B96511D760F66009A8625 /* bodyweight_fitness_squat.mp4 */,
+				738B96531D760F66009A8625 /* bodyweight_fitness_straight_arm_chest_flies.mp4 */,
+			);
+			name = "Bodyweight Fitness - Recommended Routine";
+			sourceTree = "<group>";
+		};
+		738B96BB1D760FB8009A8625 /* Molding Mobility - Flexibility Routine */ = {
+			isa = PBXGroup;
+			children = (
+				73D508D51DA6C76500D98F20 /* molding_mobility_3_plane_neck_movement.mp4 */,
+				738B965F1D760F66009A8625 /* molding_mobility_ankle_circles.mp4 */,
+				738B96601D760F66009A8625 /* molding_mobility_ankle_tilts.mp4 */,
+				738B96611D760F66009A8625 /* molding_mobility_butt_kicks.mp4 */,
+				738B96621D760F66009A8625 /* molding_mobility_circular_shrugs.mp4 */,
+				738B96631D760F66009A8625 /* molding_mobility_elbow_circles.mp4 */,
+				738B96641D760F66009A8625 /* molding_mobility_finger_flexion_extension.mp4 */,
+				738B96651D760F66009A8625 /* molding_mobility_forward_back_bends.mp4 */,
+				738B96661D760F66009A8625 /* molding_mobility_hip_circles.mp4 */,
+				738B96671D760F66009A8625 /* molding_mobility_knee_raises.mp4 */,
+				738B96681D760F66009A8625 /* molding_mobility_knee_rotations.mp4 */,
+				738B96691D760F66009A8625 /* molding_mobility_large_arm_circles.mp4 */,
+				738B966A1D760F66009A8625 /* molding_mobility_pelvic_tilts.mp4 */,
+				738B966B1D760F66009A8625 /* molding_mobility_side_bends.mp4 */,
+				738B966C1D760F66009A8625 /* molding_mobility_toe_flexion_extension.mp4 */,
+				738B966D1D760F66009A8625 /* molding_mobility_torso_twists.mp4 */,
+				738B966E1D760F66009A8625 /* molding_mobility_wrist_circles.mp4 */,
+			);
+			name = "Molding Mobility - Flexibility Routine";
+			sourceTree = "<group>";
+		};
+		73AA28EB1CABE8E000DEED79 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				735BEA081CBD1F29003616C5 /* Cell */,
+				737F3C7E1CBD593200251EFE /* Modal */,
+				73AA28EC1CABE8F800DEED79 /* DashboardView.xib */,
+				732BA03C1C5BC9D400C1CDB5 /* LaunchScreen.xib */,
+				732BA02D1C5B7A8D00C1CDB5 /* ProgressGeneralViewController.xib */,
+				732BA0231C5AE75900C1CDB5 /* ProgressPageViewController.xib */,
+				7329B68D1D0D84E4005F5F74 /* HomeView.xib */,
+				738B96CC1D763319009A8625 /* HomeBarView.xib */,
+				73BADE161CC3E2F9001ACEDC /* TimedView.xib */,
+				73BADE1C1CC3F98D001ACEDC /* WeightedView.xib */,
+				73BF3BA81CBE643200E0258D /* SettingsView.xib */,
+				73BFEBC31CBBFA3900B9DDAE /* SupportDeveloperView.xib */,
+				73BF3BBE1CBF02D200E0258D /* Window.xib */,
+				73BF3BB81CBEFB0E00E0258D /* WorkoutView.xib */,
+				737F3C771CBD52AB00251EFE /* WorkoutLogView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		73BA31BC1CB83A9B001784F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73BF3BB71CBEF0CC00E0258D /* Cell */,
+				73BF3BB61CBEB0C100E0258D /* Modal */,
+				73AA28E91CABE69200DEED79 /* DashboardViewController.swift */,
+				73C8E4AE1C5A1D30005E0248 /* ProgressGeneralViewController.swift */,
+				7366D8DC1C4EEFD500819790 /* ProgressPageViewController.swift */,
+				7366D8D01C4EE9CC00819790 /* ProgressViewController.swift */,
+				7329B68B1D0D8476005F5F74 /* HomeViewController.swift */,
+				73BADE181CC3E347001ACEDC /* TimedViewController.swift */,
+				73BADE1A1CC3F956001ACEDC /* WeightedViewController.swift */,
+				E0F587381B52730000540104 /* SettingsViewController.swift */,
+				7366D8E91C52416C00819790 /* SupportDeveloperViewController.swift */,
+				73BF3BBA1CBEFB1E00E0258D /* WorkoutViewController.swift */,
+				46B02AEDB4B0B259C2EAE1E8 /* WorkoutLogViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73BADE6C1CC78356001ACEDC /* BodyweightFitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				73BADE6D1CC78356001ACEDC /* BodyweightFitnessTests.swift */,
+				73BADE6F1CC78356001ACEDC /* Info.plist */,
+			);
+			path = BodyweightFitnessTests;
+			sourceTree = "<group>";
+		};
+		73BF3BB61CBEB0C100E0258D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				734B6F3E1C4AE7E900CFB6BD /* LogWorkoutController.swift */,
+				E0F587391B52730000540104 /* TimePickerController.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		73BF3BB71CBEF0CC00E0258D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				73AA28F21CB7ACC100DEED79 /* DashboardCategoryCell.swift */,
+				73AA28FC1CB7ACF500DEED79 /* DashboardDoubleItemCell.swift */,
+				73AA28F01CB7ABC300DEED79 /* DashboardSectionCell.swift */,
+				73AA28FA1CB7ACEB00DEED79 /* DashboardSingleItemCell.swift */,
+				732BA0291C5B76DD00C1CDB5 /* ProgressCardCell.swift */,
+				732BA02B1C5B76E500C1CDB5 /* ProgressSectionCell.swift */,
+				732BA0421C5EB9C300C1CDB5 /* WorkoutLogCardCell.swift */,
+				732BA0481C5EBBA400C1CDB5 /* WorkoutLogSectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		73BFEBBC1CBA8B4900B9DDAE /* dSYM */ = {
+			isa = PBXGroup;
+			children = (
+				738B96BE1D761B77009A8625 /* RxBlocking.framework.dSYM */,
+				738B96BF1D761B77009A8625 /* RxCocoa.framework.dSYM */,
+				738B96C01D761B78009A8625 /* RxSwift.framework.dSYM */,
+				733876DC1C4AC829006AABA7 /* Runes.framework.dSYM */,
+				732BA0211C5ADC3100C1CDB5 /* PageMenuFramework.framework.dSYM */,
+				733876DD1C4AC829006AABA7 /* SwiftyJSON.framework.dSYM */,
+				734B6FF71C4BE8CB00CFB6BD /* Realm.framework.dSYM */,
+				734B6FF81C4BE8CB00CFB6BD /* RealmSwift.framework.dSYM */,
+			);
+			name = dSYM;
+			sourceTree = "<group>";
+		};
+		E00242FB1B4F1CFD0003A230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738B96C41D761BB1009A8625 /* RxBlocking.framework */,
+				738B96C51D761BB1009A8625 /* RxCocoa.framework */,
+				738B96C61D761BB1009A8625 /* RxSwift.framework */,
+				73BFEC041CBC2C9A00B9DDAE /* Fabric.framework */,
+				73BFEC051CBC2C9A00B9DDAE /* Crashlytics.framework */,
+				732BA01E1C5ADC1200C1CDB5 /* PageMenuFramework.framework */,
+				7366D8EC1C52943D00819790 /* StoreKit.framework */,
+				734B6FE71C4BE84600CFB6BD /* Realm.framework */,
+				734B6FE81C4BE84600CFB6BD /* RealmSwift.framework */,
+				7349F6A11C492729009DBE7B /* Runes.framework */,
+				73D2BCEC1C3C6D6600CE6C00 /* SwiftyJSON.framework */,
+				73BFEBBC1CBA8B4900B9DDAE /* dSYM */,
+				E0C7E3201B5BC60600EB6389 /* Gifu */,
+				73BADE141CC3DC26001ACEDC /* RateMyApp.swift */,
+				46B023E34B0C1F6EE72EA4B5 /* UserInteractionFunctions.swift */,
+				46B0214B21F48BB91551C084 /* JTCalendarProtocols.swift */,
+				46B023C58BF2F7C63BA5051F /* JTAppleViews.swift */,
+				46B02DB9A207D649D56E092E /* JTAppleDayCell.swift */,
+				46B02EF894232CD71B4F1352 /* JTAppleCollectionReusableView.swift */,
+				46B02F1180EE611DCE533929 /* JTAppleCalendarView.swift */,
+				46B02BC870713DC61E50B197 /* JTAppleCalendarLayout.swift */,
+				46B02E5E9D8DD1144AF71EC1 /* JTAppleCalendarDelegates.swift */,
+				46B0245E7CE3B2A0776F290A /* GlobalFunctionsAndExtensions.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E078934C1B472CAF001195AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0F587331B5272F400540104 /* ActionView.swift */,
+				46B020C26FAF7645B926FA26 /* CardView.swift */,
+				73BF3BC01CBF05ED00E0258D /* SnackBar.swift */,
+				738B96CE1D76337C009A8625 /* HomeBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E078934D1B472CCD001195AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				734B70071C4BF7DD00CFB6BD /* RepositoryCategory.swift */,
+				73FE1F5A1C4BF82A0047C97A /* RepositoryExercise.swift */,
+				734B70041C4BF7C700CFB6BD /* RepositoryRoutine.swift */,
+				734B700A1C4BF7E900CFB6BD /* RepositorySection.swift */,
+				734B6FFE1C4BF46400CFB6BD /* RepositorySet.swift */,
+				E0F587301B5272E200540104 /* Routine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E08139041B5270EE00390A73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				738B96BA1D760F92009A8625 /* Bodyweight Fitness - Recommended Routine */,
+				738B96BB1D760FB8009A8625 /* Molding Mobility - Flexibility Routine */,
+				E0F587491B52731C00540104 /* bodyweight_fitness_recommended_routine.json */,
+				738B96BC1D761192009A8625 /* molding_mobility_flexibility_routine.json */,
+				73BADE7C1CC79648001ACEDC /* TestRoutine.json */,
+				E0F587481B52731C00540104 /* finished.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0C7E3201B5BC60600EB6389 /* Gifu */ = {
+			isa = PBXGroup;
+			children = (
+				E0C7E3041B5BC12B00EB6389 /* AnimatableImageView.swift */,
+				E0C7E3051B5BC12B00EB6389 /* AnimatedFrame.swift */,
+				E0C7E3061B5BC12B00EB6389 /* Animator.swift */,
+				E0C7E3091B5BC12B00EB6389 /* ImageSourceHelpers.swift */,
+				E0C7E30C1B5BC12B00EB6389 /* UIImageExtension.swift */,
+			);
+			name = Gifu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD2CA821B458FFD00841AB7 /* Bodyweight Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD2CAA51B458FFE00841AB7 /* Build configuration list for PBXNativeTarget "Bodyweight Fitness" */;
+			buildPhases = (
+				2BD2CA7F1B458FFD00841AB7 /* Sources */,
+				2BD2CA801B458FFD00841AB7 /* Frameworks */,
+				2BD2CA811B458FFD00841AB7 /* Resources */,
+				E0C7E3481B5BD8B500EB6389 /* Embed App Extensions */,
+				73D2BCDA1C3C625A00CE6C00 /* ShellScript */,
+				73D2BCDB1C3C627200CE6C00 /* CopyFiles */,
+				73BFEBFF1CBC2B8C00B9DDAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bodyweight Fitness";
+			productName = TabsTest;
+			productReference = 2BD2CA831B458FFD00841AB7 /* Bodyweight Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73BADE6A1CC78356001ACEDC /* BodyweightFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BADE721CC78356001ACEDC /* Build configuration list for PBXNativeTarget "BodyweightFitnessTests" */;
+			buildPhases = (
+				73BADE671CC78356001ACEDC /* Sources */,
+				73BADE681CC78356001ACEDC /* Frameworks */,
+				73BADE691CC78356001ACEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BADE711CC78356001ACEDC /* PBXTargetDependency */,
+			);
+			name = BodyweightFitnessTests;
+			productName = BodyweightFitnessTests;
+			productReference = 73BADE6B1CC78356001ACEDC /* BodyweightFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD2CA7B1B458FFD00841AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Damian Mazurkiewicz";
+				TargetAttributes = {
+					2BD2CA821B458FFD00841AB7 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 32UU4L8Z8S;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					73BADE6A1CC78356001ACEDC = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 2BD2CA821B458FFD00841AB7;
+					};
+				};
+			};
+			buildConfigurationList = 2BD2CA7E1B458FFD00841AB7 /* Build configuration list for PBXProject "BodyweightFitness" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD2CA7A1B458FFD00841AB7;
+			productRefGroup = 2BD2CA841B458FFD00841AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD2CA821B458FFD00841AB7 /* Bodyweight Fitness */,
+				73BADE6A1CC78356001ACEDC /* BodyweightFitnessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD2CA811B458FFD00841AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738B96901D760F66009A8625 /* bodyweight_fitness_rings_turned_out_support_hold.mp4 in Resources */,
+				738B96B81D760F66009A8625 /* bodyweight_fitness_shoulder_rolls.mp4 in Resources */,
+				738B96981D760F66009A8625 /* bodyweight_fitness_tuck_front_lever_row.mp4 in Resources */,
+				7329B68E1D0D84E4005F5F74 /* HomeView.xib in Resources */,
+				73AA28ED1CABE8F800DEED79 /* DashboardView.xib in Resources */,
+				73AA28EF1CB7ABB500DEED79 /* DashboardSectionCell.xib in Resources */,
+				738B96AE1D760F66009A8625 /* molding_mobility_side_bends.mp4 in Resources */,
+				732BA0471C5EBB9900C1CDB5 /* WorkoutLogSectionCell.xib in Resources */,
+				73D508D61DA6C76500D98F20 /* molding_mobility_3_plane_neck_movement.mp4 in Resources */,
+				738B96811D760F66009A8625 /* bodyweight_fitness_incline_row.mp4 in Resources */,
+				732BA02E1C5B7A8D00C1CDB5 /* ProgressGeneralViewController.xib in Resources */,
+				732BA0281C5AE8F900C1CDB5 /* ProgressSectionCell.xib in Resources */,
+				73AA28F71CB7ACD900DEED79 /* DashboardSingleItemCell.xib in Resources */,
+				73AA28F91CB7ACE300DEED79 /* DashboardDoubleItemCell.xib in Resources */,
+				E0F5874B1B52731C00540104 /* bodyweight_fitness_recommended_routine.json in Resources */,
+				738B96AB1D760F66009A8625 /* molding_mobility_knee_rotations.mp4 in Resources */,
+				73BADE1D1CC3F98D001ACEDC /* WeightedView.xib in Resources */,
+				73BF3BB11CBE6A8000E0258D /* SettingsTextCell.xib in Resources */,
+				738B96961D760F66009A8625 /* bodyweight_fitness_straight_arm_chest_flies.mp4 in Resources */,
+				732CDDF21D84485D004C6607 /* bodyweight_fitness_tuck_l_sit.mp4 in Resources */,
+				738B96B61D760F66009A8625 /* bodyweight_fitness_reverse_plank.mp4 in Resources */,
+				738B969C1D760F66009A8625 /* bodyweight_fitness_wall_plank.mp4 in Resources */,
+				738B96851D760F66009A8625 /* bodyweight_fitness_parallel_bar_support.mp4 in Resources */,
+				738B96A41D760F66009A8625 /* molding_mobility_butt_kicks.mp4 in Resources */,
+				73AA28F51CB7ACCC00DEED79 /* DashboardCategoryCell.xib in Resources */,
+				738B968C1D760F66009A8625 /* bodyweight_fitness_ring_support.mp4 in Resources */,
+				738B96A21D760F66009A8625 /* molding_mobility_ankle_circles.mp4 in Resources */,
+				73BADE171CC3E2F9001ACEDC /* TimedView.xib in Resources */,
+				738B96921D760F66009A8625 /* bodyweight_fitness_side_leg_swings.mp4 in Resources */,
+				738B96781D760F66009A8625 /* bodyweight_fitness_assisted_squat.mp4 in Resources */,
+				738B96951D760F66009A8625 /* bodyweight_fitness_stomach_to_wall_handstand.mp4 in Resources */,
+				738B96A81D760F66009A8625 /* molding_mobility_forward_back_bends.mp4 in Resources */,
+				738B96AA1D760F66009A8625 /* molding_mobility_knee_raises.mp4 in Resources */,
+				738B967B1D760F66009A8625 /* bodyweight_fitness_deep_step_up.mp4 in Resources */,
+				738B96A71D760F66009A8625 /* molding_mobility_finger_flexion_extension.mp4 in Resources */,
+				738B96A91D760F66009A8625 /* molding_mobility_hip_circles.mp4 in Resources */,
+				738B969A1D760F66009A8625 /* bodyweight_fitness_tuck_ice_cream_maker.mp4 in Resources */,
+				738B96A61D760F66009A8625 /* molding_mobility_elbow_circles.mp4 in Resources */,
+				738B96861D760F66009A8625 /* bodyweight_fitness_pseudo_planche_pushup.mp4 in Resources */,
+				738B96891D760F66009A8625 /* bodyweight_fitness_pushup.mp4 in Resources */,
+				73BF3BB51CBEB08B00E0258D /* LogWorkoutModalView.xib in Resources */,
+				738B96B01D760F66009A8625 /* molding_mobility_torso_twists.mp4 in Resources */,
+				738B969E1D760F66009A8625 /* bodyweight_fitness_wide_row.mp4 in Resources */,
+				732CDDF31D84485D004C6607 /* bodyweight_fitness_wrist_mobility.mp4 in Resources */,
+				732CDDF01D84485D004C6607 /* bodyweight_fitness_l_sit.mp4 in Resources */,
+				73BF3BAF1CBE6A7000E0258D /* SettingsActionCell.xib in Resources */,
+				737F3C781CBD52AB00251EFE /* WorkoutLogView.xib in Resources */,
+				E0F5874A1B52731C00540104 /* finished.mp3 in Resources */,
+				738B967F1D760F66009A8625 /* bodyweight_fitness_horizontal_row.mp4 in Resources */,
+				738B968E1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pppu.mp4 in Resources */,
+				738B96B71D760F66009A8625 /* bodyweight_fitness_scapular_shrugs.mp4 in Resources */,
+				738B969B1D760F66009A8625 /* bodyweight_fitness_vertical_row.mp4 in Resources */,
+				738B968F1D760F66009A8625 /* bodyweight_fitness_rings_turned_out_pushup.mp4 in Resources */,
+				E0F587471B52730C00540104 /* TimePickerModalView.xib in Resources */,
+				738B96791D760F66009A8625 /* bodyweight_fitness_band_dislocates.mp4 in Resources */,
+				738B96971D760F66009A8625 /* bodyweight_fitness_straight_arm_overhead_pull_downs.mp4 in Resources */,
+				738B96B21D760F66009A8625 /* bodyweight_fitness_arch.mp4 in Resources */,
+				73BF3BB31CBE819B00E0258D /* SettingsActionSubtitleCell.xib in Resources */,
+				73BF3BBF1CBF02D200E0258D /* Window.xib in Resources */,
+				732BA0261C5AE8EF00C1CDB5 /* ProgressCardCell.xib in Resources */,
+				738B96B11D760F66009A8625 /* molding_mobility_wrist_circles.mp4 in Resources */,
+				738B96801D760F66009A8625 /* bodyweight_fitness_incline_pushup.mp4 in Resources */,
+				738B96B91D760F66009A8625 /* bodyweight_fitness_side_plank.mp4 in Resources */,
+				738B96B41D760F66009A8625 /* bodyweight_fitness_hollow_hold.mp4 in Resources */,
+				738B96CD1D763319009A8625 /* HomeBarView.xib in Resources */,
+				73BFEBC41CBBFA3900B9DDAE /* SupportDeveloperView.xib in Resources */,
+				738B96871D760F66009A8625 /* bodyweight_fitness_pullover.mp4 in Resources */,
+				73BF3BB91CBEFB0E00E0258D /* WorkoutView.xib in Resources */,
+				738B967C1D760F66009A8625 /* bodyweight_fitness_diamond_pushup.mp4 in Resources */,
+				732CDDF11D84485D004C6607 /* bodyweight_fitness_one_leg_foot_supported_l_sit.mp4 in Resources */,
+				738B968B1D760F66009A8625 /* bodyweight_fitness_ring_dips.mp4 in Resources */,
+				738B967A1D760F66009A8625 /* bodyweight_fitness_burpees.mp4 in Resources */,
+				738B967E1D760F66009A8625 /* bodyweight_fitness_front_leg_swings.mp4 in Resources */,
+				738B96A31D760F66009A8625 /* molding_mobility_ankle_tilts.mp4 in Resources */,
+				738B96931D760F66009A8625 /* bodyweight_fitness_squat_jumps.mp4 in Resources */,
+				738B96831D760F66009A8625 /* bodyweight_fitness_negative_pullup.mp4 in Resources */,
+				73BF3BA91CBE643200E0258D /* SettingsView.xib in Resources */,
+				738B968A1D760F66009A8625 /* bodyweight_fitness_ring_dips_l_sit.mp4 in Resources */,
+				738B96B51D760F66009A8625 /* bodyweight_fitness_plank.mp4 in Resources */,
+				732BA0241C5AE75900C1CDB5 /* ProgressPageViewController.xib in Resources */,
+				738B96821D760F66009A8625 /* bodyweight_fitness_l_sit_pullup.mp4 in Resources */,
+				735BEA0A1CBD1F38003616C5 /* SideViewHeaderCell.xib in Resources */,
+				738B969D1D760F66009A8625 /* bodyweight_fitness_wall_pushup.mp4 in Resources */,
+				738B96A51D760F66009A8625 /* molding_mobility_circular_shrugs.mp4 in Resources */,
+				738B96841D760F66009A8625 /* bodyweight_fitness_parallel_bar_dips.mp4 in Resources */,
+				735BEA0C1CBD1F5E003616C5 /* SideViewMenuCell.xib in Resources */,
+				732CDDEF1D84485D004C6607 /* bodyweight_fitness_foot_supported_l_sit.mp4 in Resources */,
+				73BADE7D1CC79648001ACEDC /* TestRoutine.json in Resources */,
+				732BA03D1C5BC9D400C1CDB5 /* LaunchScreen.xib in Resources */,
+				738B96881D760F66009A8625 /* bodyweight_fitness_pullup.mp4 in Resources */,
+				738B967D1D760F66009A8625 /* bodyweight_fitness_freestanding_handstand.mp4 in Resources */,
+				738B96941D760F66009A8625 /* bodyweight_fitness_squat.mp4 in Resources */,
+				738B96BD1D761192009A8625 /* molding_mobility_flexibility_routine.json in Resources */,
+				738B96771D760F66009A8625 /* bodyweight_fitness_advanced_tuck_front_lever_row.mp4 in Resources */,
+				738B968D1D760F66009A8625 /* bodyweight_fitness_rings_pushup.mp4 in Resources */,
+				738B96AD1D760F66009A8625 /* molding_mobility_pelvic_tilts.mp4 in Resources */,
+				738B96991D760F66009A8625 /* bodyweight_fitness_tuck_front_lever.mp4 in Resources */,
+				E0F587B41B52734900540104 /* Images.xcassets in Resources */,
+				738B96AC1D760F66009A8625 /* molding_mobility_large_arm_circles.mp4 in Resources */,
+				738B96AF1D760F66009A8625 /* molding_mobility_toe_flexion_extension.mp4 in Resources */,
+				738B96B31D760F66009A8625 /* bodyweight_fitness_camel_bends.mp4 in Resources */,
+				732BA0451C5EB9CE00C1CDB5 /* WorkoutLogCardCell.xib in Resources */,
+				738B96911D760F66009A8625 /* bodyweight_fitness_rings_wide_pushup.mp4 in Resources */,
+				73BF3BAD1CBE6A5D00E0258D /* SettingsToggleCell.xib in Resources */,
+				46B02BB2537A1F6A3B5768B8 /* CellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BADE691CC78356001ACEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73BFEBFF1CBC2B8C00B9DDAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 5dcec45142f2b7beb83af419bcb06344e8598390 f37f74ee55215607611bede5f6fd7baf1a2584de9167cdf7b72947665f50bff0";
+		};
+		73D2BCDA1C3C625A00CE6C00 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Runes.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PageMenuFramework.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD2CA7F1B458FFD00841AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734B70051C4BF7C700CFB6BD /* RepositoryRoutine.swift in Sources */,
+				7366D8D11C4EE9CC00819790 /* ProgressViewController.swift in Sources */,
+				E0F587351B5272F400540104 /* ActionView.swift in Sources */,
+				734B70081C4BF7DD00CFB6BD /* RepositoryCategory.swift in Sources */,
+				E0C7E3171B5BC12B00EB6389 /* ImageSourceHelpers.swift in Sources */,
+				E0C7E31D1B5BC12B00EB6389 /* UIImageExtension.swift in Sources */,
+				E0C7E30D1B5BC12B00EB6389 /* AnimatableImageView.swift in Sources */,
+				7366D8E11C51810600819790 /* Extensions.swift in Sources */,
+				732BA02C1C5B76E500C1CDB5 /* ProgressSectionCell.swift in Sources */,
+				E0C7E30F1B5BC12B00EB6389 /* AnimatedFrame.swift in Sources */,
+				E0F5873D1B52730000540104 /* TimePickerController.swift in Sources */,
+				7366D8DD1C4EEFD500819790 /* ProgressPageViewController.swift in Sources */,
+				73AA28FD1CB7ACF500DEED79 /* DashboardDoubleItemCell.swift in Sources */,
+				734B6FFF1C4BF46400CFB6BD /* RepositorySet.swift in Sources */,
+				732BA0491C5EBBA400C1CDB5 /* WorkoutLogSectionCell.swift in Sources */,
+				73AA28F31CB7ACC100DEED79 /* DashboardCategoryCell.swift in Sources */,
+				E0F587311B5272E200540104 /* Routine.swift in Sources */,
+				7366D8EA1C52416C00819790 /* SupportDeveloperViewController.swift in Sources */,
+				E0F5873C1B52730000540104 /* SettingsViewController.swift in Sources */,
+				E0C7E3111B5BC12B00EB6389 /* Animator.swift in Sources */,
+				73BADE151CC3DC26001ACEDC /* RateMyApp.swift in Sources */,
+				732BA0431C5EB9C300C1CDB5 /* WorkoutLogCardCell.swift in Sources */,
+				73BADE1B1CC3F956001ACEDC /* WeightedViewController.swift in Sources */,
+				73BF3BBB1CBEFB1E00E0258D /* WorkoutViewController.swift in Sources */,
+				732BA02A1C5B76DD00C1CDB5 /* ProgressCardCell.swift in Sources */,
+				E0F5872E1B5272C400540104 /* AppDelegate.swift in Sources */,
+				73AA28FB1CB7ACEB00DEED79 /* DashboardSingleItemCell.swift in Sources */,
+				73AA28EA1CABE69200DEED79 /* DashboardViewController.swift in Sources */,
+				734B700B1C4BF7E900CFB6BD /* RepositorySection.swift in Sources */,
+				73AA28F11CB7ABC300DEED79 /* DashboardSectionCell.swift in Sources */,
+				7329B68C1D0D8476005F5F74 /* HomeViewController.swift in Sources */,
+				73FE1F5B1C4BF82A0047C97A /* RepositoryExercise.swift in Sources */,
+				73BF3BC11CBF05ED00E0258D /* SnackBar.swift in Sources */,
+				73C8E4AF1C5A1D30005E0248 /* ProgressGeneralViewController.swift in Sources */,
+				73BADE191CC3E347001ACEDC /* TimedViewController.swift in Sources */,
+				734B6F3F1C4AE7E900CFB6BD /* LogWorkoutController.swift in Sources */,
+				46B02780EEC08B16FB384A4F /* CardView.swift in Sources */,
+				46B021B6A56C2000CA08000B /* WorkoutLogViewController.swift in Sources */,
+				738B96CF1D76337C009A8625 /* HomeBarView.swift in Sources */,
+				46B02827BB8DE1BAFE67526A /* PersistenceManager.swift in Sources */,
+				46B02FDDA16C9D54DBC1A61D /* RepositoryStream.swift in Sources */,
+				46B0271B985965324463B90C /* RoutineStream.swift in Sources */,
+				46B02B4715E0F3EF8FF40542 /* UserInteractionFunctions.swift in Sources */,
+				46B02A11EF8A9D966F52363C /* JTCalendarProtocols.swift in Sources */,
+				46B02F273A691452E7174C82 /* JTAppleViews.swift in Sources */,
+				46B025EA7291A0DA0B274075 /* JTAppleDayCell.swift in Sources */,
+				46B020A6940D5C36E142CDC6 /* JTAppleCollectionReusableView.swift in Sources */,
+				46B0266269F9AF2987F8DD20 /* JTAppleCalendarView.swift in Sources */,
+				46B0290B4EED9DF65564DD88 /* JTAppleCalendarLayout.swift in Sources */,
+				46B02EEF7C74B371B7BE5BE3 /* JTAppleCalendarDelegates.swift in Sources */,
+				46B02EA99E5A097D40018FFF /* GlobalFunctionsAndExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BADE671CC78356001ACEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BADE6E1CC78356001ACEDC /* BodyweightFitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73BADE711CC78356001ACEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD2CA821B458FFD00841AB7 /* Bodyweight Fitness */;
+			targetProxy = 73BADE701CC78356001ACEDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0F587431B52730C00540104 /* TimePickerModalView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0F587441B52730C00540104 /* Base */,
+			);
+			name = TimePickerModalView.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD2CAA31B458FFE00841AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Damian Mazurkiewicz (2HYG5VX9N6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Damian Mazurkiewicz (2HYG5VX9N6)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BodyweightFitness/Bodyweight Fitness.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD2CAA41B458FFE00841AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Damian Mazurkiewicz (32UU4L8Z8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Damian Mazurkiewicz (32UU4L8Z8S)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BodyweightFitness/Bodyweight Fitness.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD2CAA61B458FFE00841AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Damian Mazurkiewicz (2HYG5VX9N6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Damian Mazurkiewicz (2HYG5VX9N6)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BodyweightFitness/Bodyweight Fitness.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mazur.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Bodyweight Fitness";
+				PROVISIONING_PROFILE = "09f92075-d0bc-4f2e-aa1a-adc0c26cb22d";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD2CAA71B458FFE00841AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Damian Mazurkiewicz (32UU4L8Z8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Damian Mazurkiewicz (32UU4L8Z8S)";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 32UU4L8Z8S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BodyweightFitness/Bodyweight Fitness.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mazur.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Bodyweight Fitness";
+				PROVISIONING_PROFILE = "5c72059a-1796-4292-8312-c1fc5dbb1543";
+				PROVISIONING_PROFILE_SPECIFIER = BWF_DISTRIBUTION;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73BADE731CC78356001ACEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BodyweightFitnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mazur.BodyweightFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "$(inherited)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bodyweight Fitness.app/Bodyweight Fitness";
+			};
+			name = Debug;
+		};
+		73BADE741CC78356001ACEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BodyweightFitnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mazur.BodyweightFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bodyweight Fitness.app/Bodyweight Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD2CA7E1B458FFD00841AB7 /* Build configuration list for PBXProject "BodyweightFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD2CAA31B458FFE00841AB7 /* Debug */,
+				2BD2CAA41B458FFE00841AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD2CAA51B458FFE00841AB7 /* Build configuration list for PBXNativeTarget "Bodyweight Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD2CAA61B458FFE00841AB7 /* Debug */,
+				2BD2CAA71B458FFE00841AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BADE721CC78356001ACEDC /* Build configuration list for PBXNativeTarget "BodyweightFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BADE731CC78356001ACEDC /* Debug */,
+				73BADE741CC78356001ACEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BD2CA7B1B458FFD00841AB7 /* Project object */;
+}
